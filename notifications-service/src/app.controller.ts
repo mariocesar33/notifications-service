@@ -1,7 +1,7 @@
 import { Controller, Get, Post } from '@nestjs/common';
 import { PrismaService } from './prisma.service';
 
-@Controller('notification')
+@Controller('notifications')
 export class AppController {
   constructor(private readonly prisma: PrismaService) {}
 
